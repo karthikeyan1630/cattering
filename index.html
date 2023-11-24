@@ -1,0 +1,413 @@
+<! doctype html>
+<html>
+<style>
+	.header{
+	
+	background-color: #5e83a5;
+	height:35px;
+	width:100%;
+	position: fixed;
+	}
+	.header h5{
+	margin-top:7px;
+	color:white;
+	padding-left:90px;
+
+	}
+	
+	#head{
+		position: fixed;
+		width:100%;
+		height:85px;
+	}
+	.header1{
+	background-color: white;
+	padding-top:15px;
+	display:flex;
+	flex-direction: row;
+	 border-bottom-style: solid;
+	border-bottom-color:black;
+	border-size:1px;
+	}
+	.header1 div img{
+	padding-left:100px;
+	padding-top:8px;
+	height:50px;
+	width:65%;
+	}
+	.header2 a{
+	text-decoration:none;
+	color:  #abb8c3;;
+	padding-right:30px;
+	padding-top:7px;
+	}
+	.header2 a h3:hover{
+	    color: rgba(0,0,0,0.6) ;
+	}
+	.header2{
+	display:flex;
+	flex-direction:row;
+	padding-left:550px;
+	}
+	.image1{
+	height:100%;
+	width:100%;
+    background-image: url(https://finerpalate.com/wp-content/uploads/2022/03/Dinner-3.jpg),
+    linear-gradient(#000000 0%,#ffffff 100%);
+    background-blend-mode: multiply;
+	}
+	.image1 p{
+	font-size:70px;
+	font-family: Poppins;
+    font-weight: normal;
+	padding-left:200px;
+	color:white;
+	padding-top:180px;
+	}
+	.highlight{
+	color:rgba(0,0,0,0.6) ;
+	}
+	
+	.image2{
+	padding-top:50px;
+	padding-left:30px;
+	width:48%;
+	height:79%;
+	}
+	
+	.about1{
+	display:flex;
+	flex-direction:row;
+	padding-right:130px;
+
+	}
+	.about1 p{
+	padding-top:320px;
+	padding-left:70px;
+	font-size:15px;
+	 font-family:  "Courier New", monospace;
+    color: #666;
+	 line-height: 1.6;
+	}
+	
+	.about1 p span{
+	 font-family: "Lucida Console", "Courier New", monospace;
+	color:black;
+    font-size: 40px;
+	}
+	
+	#learnmore{
+	text-decoration:none;
+	font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+	padding-top:22px;
+	color:black;
+	padding-left:990px;
+	}
+	.about2
+	{
+	display:flex;
+	flex-direction:row;
+	}
+	
+	.image3{
+	height:60px;
+	}
+	
+	.menu1{
+	height:1200px;
+	background-color:#00457A;
+	width:100%;
+	}
+	.menu2p1{
+	padding-top:120px;
+	padding-left:180px;
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 60px;
+    line-height: 1.2em;
+	}
+	.menu2p2{
+	padding-left:180px;
+	color: white;
+    font-size: 20px;
+  
+	}
+	
+	.menu2p3{
+	padding-left:180px;
+	color: white;
+    font-size: 20px;
+	padding-right:140px;
+	}
+	
+	.image4,.image5,.image6{
+	margin-top:-80px;
+	height:180px;
+	margin-left:10px;
+	width:64%;
+	border-radius: 300px 300px 300px 300px;
+    overflow: hidden;
+    box-shadow: 0px 20px 40px 0px rgba(51,51,51,0.4);
+	}
+	.menu1 fieldset{
+	margin-top:80px;
+	height:240px;
+	width:280px;
+	background-color:white;
+	}
+	.menu1 fieldset h2{
+	padding-top:5px;
+	font-family:  "Courier New", monospace;
+	}
+	.menu1 fieldset h3{
+	font-size:15px;
+	 font-family:  "Courier New", monospace;
+    color: #666;
+	}
+	
+	.menu3{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	}
+	
+	.menu4 div{
+	background-color:none;
+	margin-top:100px;
+	margin-left:130px;
+	height:70px;
+	width:280px;
+	}
+	.menu4 div h3{
+	font-size:15px;
+	color:white;
+	margin-left:40px;
+	}
+	.menu4 div h2{
+	margin-left:90px;
+	font-size:30px;
+	color:white;
+	}
+	.image7,.image8,.image9{
+	margin-left:87px;
+	}
+	.menu4,.menu5,.f2,.f3{
+	display:flex;
+	flex-direction:row;
+	}
+	
+	.menu5{
+	height:1200px;
+	justify-content:space-around;
+	margin-left:130px;
+	}
+	.menu5 h2{
+	margin-top:140px;
+	font-size:60px;
+	font-family: Open Sans,Arial,sans-serif;
+	line-height: 1.2em;
+	}
+	.menu5 p{
+	
+	 font-family: Open Sans,Arial,sans-serif;
+	 margin-right:150px;
+    font-size: 17px;
+    color: #666;
+	line-height: 1.4em;
+	}
+	
+	
+	.image10,.image11{
+	height:320px;
+	width:260px;
+	}
+	.f5{
+	height:320px;
+	width:230px;
+	background-color:#182844;
+	}
+	.f1{
+	margin-right:40px;
+	}
+	
+	.f4{
+	width:230px;
+	margin-top:30px;
+	margin-right:5px;
+	height:260px;
+	border-radius: 300px 300px 300px 300px;
+	}
+	
+	.contact1{
+	text-decoration:none;
+	}
+	
+	.f6{
+	margin-top:100px;
+	}
+	
+	.f4:hover{
+	border-color:red;
+	}
+	
+	.f5{
+	color:white;
+	margin-top:10px;
+	}
+	
+	.f7{
+	margin-top:-500px;
+	background-color:#666;
+	height:190px;
+	width:98%
+	}
+	
+	.f7 h3{
+	color:white;
+	}
+	
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title >Cattering Service</title>
+</head>
+<body>
+<div id="head">
+	<div class="header">
+		<h5>e-mail:catteringservices@gmail.com</h5>
+	</div>
+<br>
+<div class="header1">
+	<div>
+		<img src="https://finerpalate.com/wp-content/uploads/2021/08/Fine-Palate-Logo-horz-1920.png" >
+	</div>
+	<div class="header2">
+		<a href="index.html" ><h3 class="highlight">Home</h3></a>
+		<a href="about.html"><h3>About</h3></a>
+		<a href="menu.html"><h3>Menu</h3></a>
+		<a href="contact.html"><h3>Contact</h3></a>
+	</div>
+</div>
+</div><br>
+		<div class="image1">
+		<i><p class="1">"Taste Beyond
+		<br>the Table"</p></i>
+		</div><br>
+		
+		<div class="about1">
+		<img src="	https://finerpalate.com/wp-content/uploads/2022/08/Crudo-Snapper-800x588-1.png" class="image2"></img>
+		<p><span>About Us</span><br>
+		Finer Palate is a family-owned business that serves high-end food. We provide catering for private and corporate events,
+		from plated dinners for 10 of your closest friends to large-scale functions with 200+ attendees.</p><br><br></div>
+		<div class="about2">
+		<a href="about.html" id="learnmore" > Learn more -> </a><input type="image" for="learnmore" class="image3" src="https://finerpalate.com/wp-content/uploads/2021/07/Artboard-1.png"></div>
+		
+		<br>
+		<br><br>
+		<div class="menu1">
+			<div class="menu2">
+				<p class="menu2p1">Popular Menu Items</p>
+				<p class="menu2p2">Although every menu we serve is customized to suit your taste,
+				there are a few food items that no client can live without. </p>
+				<p class="menu2p3">Our Maryland crab cakes are always a hit at exclusive events and canape parties. We offer a magnificent 
+				Beef Wellington for those seeking sophistication and comfort, while our spinach & artichoke dip is a light and satisfying vegetarian favorite.
+				Of course, no one can resist our freshly caught pan-seared salmon. No matter what type of 
+				event you’re hosting or taste you crave, our flexible menu options will cater to everyone.  </p>
+			</div><br>
+			<div class="menu3">
+			<fieldset>
+			<a href="menu.html"><img class="image4" src="https://finerpalate.com/wp-content/uploads/2021/08/Crab_Cake.jpg"></img></a>
+			<h2>Maryland Crab Cakes</h2>
+			<h3>Our Maryland crab cakes are always a hit at exclusive events and canape parties.</h3>
+			</fieldset>
+			<fieldset>
+			<a href="menu.html"><img class="image5" src="https://finerpalate.com/wp-content/uploads/2022/03/Beff_Wellington.jpg"></img></a>
+			<h2>Beef Wellington</h2>
+			<h3>We offer a magnificent Beef Wellington for those seeking sophistication and comfort.</h3>
+			</fieldset>
+			<fieldset>
+			<a href="menu.html"><img class="image6" src="https://finerpalate.com/wp-content/uploads/2022/08/Salmon-8-400x422-1.png"></img></a>
+			<h2>Pan Seared Salmon</h2>
+			<h3>No one can resist our freshly caught pan-seared salmon.</h3>
+			</fieldset>
+			</div><br>
+			
+			
+			<div class="menu4">
+			<div >
+			<img class="image7" src="https://finerpalate.com/wp-content/uploads/2021/07/online-cooking-school-icon-5-color.png"></img>
+			<h2>205</h2>
+			<h3>CATERED EVENTS</h3>
+			</div>
+			<div >
+			<img class="image8" src="https://finerpalate.com/wp-content/uploads/2021/07/online-cooking-school-icon-2-color.png"></img>
+			<h2>30</h2>
+			<h3>YEARS OF EXPERIENCE</h3>
+			</div>
+			<div >
+			<img class="image9" src="https://finerpalate.com/wp-content/uploads/2021/07/online-cooking-school-icon-1-color.png"></img>
+			<h2>162</h2>
+			<h3>DISHES TO CHOOSE FROM</h3>
+			</div>
+			</div>
+		</div>
+		<br>
+		
+		
+		<div class="menu5">
+		<div>
+		<h2>Everything From Scratch</h2>
+		<p>Whenever we meet with a new client, we start with a blank slate and develop menus and ideas based on the client’s specific needs.</p>
+		<p>Each of our customized menus is homemade with the utmost attention to detail. We make every bite from scratch and refuse to compromise 
+		on quality. We source our ingredients from local suppliers we trust, and we always seek fresh seasonal produce when possible. We’ve spent 
+		years fine-tuning our recipes to provide an unparalleled catering experience.</p>
+		</div>
+		<div class="f1">
+			<div class="f2">
+					<div>
+					<img class="image10" src="https://finerpalate.com/wp-content/uploads/2022/08/Lamb-Rack-3-600x600-1.png"></img>
+					</div>
+					<div>
+					<img class="image11" src="https://finerpalate.com/wp-content/uploads/2022/08/Duck-Breast-3-400x422-1.png"> </img>
+					</div>
+			</div>
+			<div class="f3">
+					
+					<center>
+					<a href="contact.html" class="contact1" id="cont1"> 
+					<fieldset for="cont1" class="f4">
+						<div class="f6">
+						<p>
+						<center>
+						CONTACT US
+						</center>
+						</p>
+						</div>
+					
+					</fieldset>
+					</a>
+					</center>
+					<fieldset class="f5">
+					<p class="f6">
+						<center>
+						<h3>We shop at our local markets</h3>
+					The best food starts with fresh ingredients. 
+					We shop local because we are local.
+						</center>
+					</p>
+					</fieldset>
+			</div>
+		</div>
+		</div>
+	<fieldset class="f7">
+	<center>
+	<h3>Finer Palate<br>
+P.O. Box 32063 Henrico, VA 23294<br>
+804.467.8266</h3>
+	</center>
+	</fieldset>
+	
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<title>
+	Contact|Cattering Service
+	</title>
+	<style>
+	
+	.header{
+	
+	background-color: #5e83a5;
+	height:35px;
+	width:100%;
+	position: fixed;
+	}
+	.header h5{
+	margin-top:7px;
+	color:white;
+	padding-left:90px;
+
+	}
+	
+	#head{
+		position: fixed;
+		width:100%;
+		height:85px;
+	}
+	.header1{
+	background-color: white;
+	padding-top:15px;
+	display:flex;
+	flex-direction: row;
+	 border-bottom-style: solid;
+	border-bottom-color:black;
+	border-size:1px;
+	}
+	.header1 div img{
+	padding-left:100px;
+	padding-top:8px;
+	height:50px;
+	width:65%;
+	}
+	.header2 a{
+	text-decoration:none;
+	color:  #abb8c3;;
+	padding-right:30px;
+	padding-top:7px;
+	}
+	.header2 a h3:hover{
+	    color: rgba(0,0,0,0.6) ;;
+	}
+	.header2{
+	display:flex;
+	flex-direction:row;
+	padding-left:550px;
+	}
+	
+	.highlight{
+	color:rgba(0,0,0,0.6) ;
+	}
+	
+	.contact1{
+	height:1200px;
+	background-color:#00457A;
+	}
+	
+	.contact1 h1{
+	padding-top:120px;
+	color:white;
+	font-size:55px
+	}
+	
+	.contact1 p{
+	margin-left:200px;
+	margin-right:200px;
+	color:white;
+	font-size:25px
+	}
+	
+	.contact2{
+	
+	margin-top:50px;
+	}
+	
+	.name{
+	padding-top:40px;
+	background-color:#00457A;
+	border:hidden;
+	color:white;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	font-size:30px;
+	border-size:5px;
+	}
+	
+	button{
+	height:70px;
+	width:120px;
+	margin-left:420px;
+	}
+	
+	
+	.flx{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	}
+	
+	.flx img{
+	height:550px;
+	width:400px;
+	}
+	
+	
+	.about3{
+	
+	background-color:#666;
+	height:190px;
+	width:100%
+	}
+	
+	.about3 h3{
+	padding-top:70px;
+	color:white;
+	}
+	
+	
+	</style>
+	</head>
+	<body>
+	
+	<div id="head">
+			<div class="header">
+				<h5>e-mail:catteringservices@gmail.com</h5>
+			</div><br>
+		<div class="header1">
+			<div>
+				<img src="https://finerpalate.com/wp-content/uploads/2021/08/Fine-Palate-Logo-horz-1920.png" >
+			</div>
+			<div class="header2">
+				<a href="index.html"><h3>Home</h3></a>
+				<a href="about.html" ><h3 >About</h3></a>
+				<a href="menu.html"><h3>Menu</h3></a>
+				<a href="contact.html"  ><h3 class="highlight">Contact</h3></a>
+			</div>
+		</div>
+	</div><br><br>
+	
+	
+	
+	<div class="contact1">
+	
+		<center>
+			<h1 >Contact Us to Book a Culinary Experience</h1>
+			
+			<p>Finer Palate is a versatile, trusted caterer based in Richmond, Virginia. 
+			We offer exclusive catering for all types of events. 
+			Need a caterer you can trust for your next event?  Get in touch with us to book a culinary experience you’ll never want to forget.
+			Whatever vision you have for your event, we’ll turn it into a reality.  Get in touch today.</p>
+			<br>
+			<p>E-MAIL</p>
+			<p>cateringservice@gmail.com</p>
+		</center><br>
+	
+	
+		<div class="flx">
+			<div class="contact2">
+			    <fieldset style="border:none">
+				<input type="text"  placeholder="Name" size="30" required class="name">
+				<br><br>
+				<input type="text" required placeholder="E-Mail" size="30" class="name">
+				<br><br>
+				<input type="text" required placeholder="Phone" size="30" class="name">
+				<br><br>
+				<input type="textarea" required placeholder="Message"   class="name">
+				<br><br>
+				<button onclick="sub()">Submit</button>
+				</fieldset>
+			</div>
+			<img src="https://finerpalate.com/wp-content/uploads/2022/08/Pork-Belly-4-600x600-1.png"></img>
+		</div>
+		
+	</div>
+	<br>
+	
+	
+	
+				<div class="about3">
+				<center>
+				<h3>Finer Palate<br>
+			P.O. Box 32063 Henrico, VA 23294<br>
+			804.467.8266</h3>
+				</center>
+				</div>
+	
+	
+</body>
+	
+	<script>
+	let a=document.getElementsByClassName('name')[0].value;
+	let b=document.getElementsByClassName('name')[1].value;
+	let c=document.getElementsByClassName('name')[2].value;
+	let d=document.getElementsByClassName('name')[3].value;
+	function sub(){
+	if((a=='')&&(b=='')&&(c=='')&&(d==''))
+	alert('Please Enter the details ');
+	else
+	alert('Thank You for contact us');
+	}
+	</script>
+	
+	
+</html>
